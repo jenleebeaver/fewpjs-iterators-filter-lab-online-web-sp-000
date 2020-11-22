@@ -15,5 +15,18 @@ function findMatching (list, name) {
 //has a property of name. The function should return each element whose name property
 //matches the provided string argument.
 function matchName (drivers, name) {
-  
+  return drivers.filter(function (driver))
+}
+
+function matchName (list, name) {
+  return list.filter(function (driver) {
+    return driver.name.toLowerCase() === name.toLowerCase();
+  });
+}
+
+function fuzzyMatch (list, partialName) {
+  let lengthOfName = partialName.length;
+  return list.filter(function (driverName) {
+    return driverName.slice(0, lengthOfName) === partialName;
+  });
 }
