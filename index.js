@@ -26,6 +26,9 @@ function matchName (drivers, name) {
 //letters.
 function fuzzyMatch(drivers, letters) {
   let length = letters.length;
+  return drivers.filter(function (name){
+
+  });
 }
 
 // function fuzzyMatch (list, partialName) {
