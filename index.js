@@ -16,7 +16,7 @@ function findMatching (list, name) {
 //matches the provided string argument.
 function matchName (drivers, name) {
   return drivers.filter(function (driver) {
-    
+    return driver,name
   })
 }
 
