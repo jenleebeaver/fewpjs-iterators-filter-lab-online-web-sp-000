@@ -20,6 +20,7 @@ function matchName (drivers, name) {
   });
 }
 
+//3.
 
 // function fuzzyMatch (list, partialName) {
 //   let lengthOfName = partialName.length;
