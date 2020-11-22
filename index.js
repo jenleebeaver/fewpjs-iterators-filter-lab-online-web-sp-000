@@ -20,11 +20,6 @@ function matchName (drivers, name) {
   });
 }
 
-function matchName (list, name) {
-  return list.filter(function (driver) {
-    return driver.name.toLowerCase() === name.toLowerCase();
-  });
-}
 
 function fuzzyMatch (list, partialName) {
   let lengthOfName = partialName.length;
