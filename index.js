@@ -7,3 +7,9 @@ findMatching = drivers => {
   let result = drivers.filter(name => name.result === name)
   return !!result ? result : []
 }
+
+function findMatching (list, name) {
+  return list.filter(function (driverName) {
+    return driverName.toLowerCase() === name.toLowerCase();
+  });
+}
