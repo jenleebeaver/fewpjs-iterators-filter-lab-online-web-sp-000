@@ -21,6 +21,9 @@ function matchName (drivers, name) {
 }
 
 //3.
+//Write fuzzyMatch - This function takes an array of drivers and a string as arguments 
+//for querying the array, and returns all drivers whose names begin with the provided 
+//letters.
 
 // function fuzzyMatch (list, partialName) {
 //   let lengthOfName = partialName.length;
