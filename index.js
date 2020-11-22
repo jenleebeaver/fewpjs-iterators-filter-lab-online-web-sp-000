@@ -30,10 +30,3 @@ function fuzzyMatch(drivers, letters) {
     return name.slice(0, length) === letters;
   });
 }
-
-// function fuzzyMatch (list, partialName) {
-//   let lengthOfName = partialName.length;
-//   return list.filter(function (driverName) {
-//     return driverName.slice(0, lengthOfName) === partialName;
-//   });
-// }
